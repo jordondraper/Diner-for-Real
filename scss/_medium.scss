@@ -1,0 +1,37 @@
+header {
+    padding: 2rem $gutter;
+    h1 {font-size: 2rem;}
+}
+
+.parent {
+    grid-template-columns: 1fr 1fr;
+  }
+
+nav {
+    
+    button {
+        display: none;
+    }
+    ul {
+        display: flex;
+    } // end ul
+    ul li a {
+        border: none;
+    }
+
+} // end nav
+
+.allcards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: $gutter;
+    section {
+        flex-basis: calc(50% - (($gutter/2)));
+    }
+}
+
+footer div {
+    display: grid;
+    grid-template-columns: auto auto;
+    align-items: center;
+}
