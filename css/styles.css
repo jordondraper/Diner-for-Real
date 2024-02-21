@@ -408,7 +408,7 @@ nav ul {
   margin: 0;
   color: #fff0cf;
 }
-nav ul ul.open {
+nav ul.open {
   display: block;
 }
 nav li.active {
